@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 import basics.Patterns;
 import basics.Basisjava;
+
 public class Main {
     public static void main(String[] args) {
         // System.out.println("enter your name: ");
@@ -17,7 +18,7 @@ public class Main {
         // table.ClassTopper(sc);
 
         // sc.close();
- 
+
         // Patterns pattern = new Patterns();
         // pattern.printStarsTrangle();
         // pattern.printInvertStarsTrangle();
@@ -30,6 +31,8 @@ public class Main {
         // basisjava.MudulerFofTenContinue(sc);
         // basisjava.isPrime(sc);
         // basisjava.factorial(sc);
-        basisjava.BaiCoficant(sc);
+        // basisjava.BaiCoficant(sc);
+        // basisjava.primeinRange(sc);
+        basisjava.binaryNumber(sc);
     }
 }
