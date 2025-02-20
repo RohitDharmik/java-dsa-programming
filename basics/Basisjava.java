@@ -200,28 +200,63 @@ public class Basisjava {
     // }
     // ---------------------------------------
     // binary number
-    public void binaryNumber(Scanner scanner) {
-        for (; true;) {
-            System.out.print("Enter the number: ");
-            int number = scanner.nextInt();
-            int binary = 0;
-            int num = number;
-            int pow = 0;
-            if (number > 1) {
+    // public void binaryNumber(Scanner scanner) {
+    //     for (; true;) {
+    //         System.out.print("Enter the number: ");
+    //         int number = scanner.nextInt();
+    //         int binary = 0, pow = 1;
+    //         if (number == 0) {
+    //             break;
+    //         } else
+    //             for (; number > 0;) {
+    //                 int rem = number % 2;
+    //                 binary += rem * pow;
+    //                 pow *= 10;
+    //                 number /= 2;
 
-                for (; num > 0; pow++) {
-                    int rem = num % 2;
-                    binary = binary + rem * (int) Math.pow(10, pow);
-                    num = num / 2;
-                }
+    //             }
+    //         System.out.println("Binary number is: " + binary);
 
-            } else {
-                binary = 1;
+    //     }
 
-            }
+    // }
 
-            System.out.println("binary number is: " + binary);
-        }
+    // public boolean check(int number) {
+    //     String stringnum = Integer.toString(number);
+    //     for (int i = 0; i < stringnum.length(); i++) {
+    //         if (stringnum.charAt(i) != '0' && stringnum.charAt(i) != '1') {
+    //             return false;
+    //         }
+    //     }
+    //     return true;
+    // }
 
-    }
+    // public void binaryToDecimal(Scanner scanner) {
+    //     for (; true;) {
+    //         System.out.print("Enter the binary number: ");
+    //         int number = scanner.nextInt();
+    //         boolean isValid = check(number);
+    //         if (number == 0) {
+    //             scanner.close();
+    //             break;
+
+    //         } else if (isValid == false) {
+    //             System.out.println("Enter valid binary number");
+    //             continue;
+    //         } else {
+    //             int decimal = 0, pow = 1;
+    //             for (; number > 0;) {
+    //                 int rem = number % 10;
+    //                 decimal += rem * pow;
+    //                 pow *= 2;
+    //                 number = number / 10;
+
+    //             }
+    //             System.out.println("Decimal number is: " + decimal);
+    //         }
+    //         // scanner.close();
+    //     }
+    // }
+    // ======================   
+    
 }

@@ -33,6 +33,7 @@ public class Main {
         // basisjava.factorial(sc);
         // basisjava.BaiCoficant(sc);
         // basisjava.primeinRange(sc);
-        basisjava.binaryNumber(sc);
+        // basisjava.binaryNumber(sc);
+        basisjava.binaryToDecimal(sc);
     }
 }
